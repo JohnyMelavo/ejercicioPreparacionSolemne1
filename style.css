@@ -1,0 +1,20 @@
+/* 
+    Created on : 28-03-2016, 19:31:25
+    Author     : cetecom
+*/
+
+
+title {
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    font-family: Tahoma;
+}
+titulo {
+    /*Alineación: (Izquierda); Fuente(Tahoma); Tamaño(28 pixeles); Color(rojo)*/
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 28px;
+    color: red;
+        
+}
