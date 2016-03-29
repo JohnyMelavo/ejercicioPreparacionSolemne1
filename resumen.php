@@ -18,7 +18,9 @@
         require 'menu.php';
         ?>
         <br>
-        
+        <?php
+        require 'proceso.php';
+        ?>
         
         </body>
 </html>
