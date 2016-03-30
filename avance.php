@@ -28,23 +28,23 @@ require 'variables.php';
                     </tr>
                     <tr>
                         <td>Mt2 de avance: </td>
-                        <td><input type="number" name="mt2" id="mt2"></td>
+                        <td><input type="number" name="mt2" id="mt2" required="true"></td>
                     </tr>
                     <tr>
                         <td>Fecha del Avance: </td>
-                        <td><input type="date" name="fechaAvance" id="fecha"></td>
+                        <td><input type="date" name="fechaAvance" id="fecha" required="true"></td>
                     </tr>
                     <tr>
                         <td>Nombre ingeniero a cargo: </td>
-                        <td><input type="text" name="nombre" id="nombre"></td>
+                        <td><input type="text" name="nombre" id="nombre" required="true"></td>
                     </tr>
                     <tr>
                         <td>E-Mail: </td>
-                        <td><input type="email" name="correo" id="correo"></td>
+                        <td><input type="email" name="correo" id="correo" required="true"></td>
                     </tr>
                     <tr>
                         <td>Piso del Edificio: </td>
-                        <td><select name="piso" id="piso">
+                        <td><select name="piso" id="piso" required="true">
                                 <option value="default">Selecciona</option>
                                 <option value="0">subterraneo</option>
                                 <option value="1">piso 1</option>
@@ -79,12 +79,5 @@ require 'variables.php';
         $("input").blur(function () {
             $(this).css("backgroudn-color", "#ffffff")
         });
-        function validar() {
-            var cod = $("#codigo").val();
-            if (cod == "") {
-                alert("Defina valor de Codigo");
-                return false;
-            }
-        }
-
-        < /html>
+    </script>
+</html>
